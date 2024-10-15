@@ -1,2 +1,10 @@
 name = input(prompt"Please provide a name.")
 number = input(prompt"Please provide an integer.")
+aCount = 0
+for letter in name:
+	if letter == 1:
+		aCount += 1
+if aCount == number:
+	print("You win!")
+else:
+	print("You lose!")
