@@ -1,0 +1,2 @@
+name = input(prompt"Please provide a name.")
+number = input(prompt"Please provide an integer.")
