@@ -1,12 +1,9 @@
-name = input("Please provide a name.");
-number = int(input("Please provide an integer."));
-aCount = 0;
-for letter in name:
-	if letter == "m":
-		aCount += 1;
+name = input("Please provide a name.")
+number = int(input("Please provide an integer."))
+aCount = name.count('m')
 if aCount == number:
-	print("You win!");
-	print(name[::-1]);
+	print("You win!")
+	print(name[::-1])
 else:
-	print("You lose!");
-	print("The correct integer was", aCount);
+	print("You lose!")
+	print(f"The correct integer was {aCount}")
